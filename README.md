@@ -1,7 +1,7 @@
 
 ## Nodejs-Load-Balancer-On-EC2
 
-Load Balancing of Web or Application Servers with a NodeJS application
+Load Balancing of Web or Application Servers with a NodeJS load balancer (lb) application.
 
 ## Architectural Diagram
 ![Image description](https://github.com/MongoExpUser/Nodejs-Load-Balancer-on-EC2/blob/main/nodejs-lb-arch-digram.png)
