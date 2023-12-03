@@ -1,0 +1,12 @@
+{  
+    "port": 80,
+    "tlsPort" : 443,
+    "host": "localhost",
+    "lblServers": [ "http://localhost:4431", "http://localhost:4432", "http://localhost:4433" ],
+    "pathToTlsFiles" : "pathToTlsFiles",
+    "tlsOption" : "true",
+    "ca": "ca.pem",
+    "key": "key.pem",
+    "cert": "cert.pem",
+    "appLoggerFileName": "appLBLogger.json"
+}
