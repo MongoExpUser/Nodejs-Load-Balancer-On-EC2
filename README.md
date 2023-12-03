@@ -15,11 +15,11 @@ Load Balancing of Web or Application Servers with a NodeJS load balancer (lb) ap
 ## Advantages
   * Fast.
   * Cheaper.
-  * Easy to Deploy.
+  * Easy to deploy.
   * Load requests across multiple machines globally.
 
 
-## Installing Dependencies 
+## Install Dependency
 * NodeJS 19+ or above (https://nodejs.org/en/download)
 
 ##  Run App
