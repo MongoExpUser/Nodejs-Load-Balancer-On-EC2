@@ -9,7 +9,7 @@ Load Balancing of Web or Application Servers with a NodeJS load balancer (lb) ap
     
 ## Purpose
  * Load Balancing of Web or Application Servers on AWS EC2 machine.
- * The current demonstration if for an AWS EC2 but the NodeJS application can be run on any cloud provider VM e.g (Linode, GCP, Azure, etc.) as long as the network is properly set up.
+ * The current demonstration is for an AWS EC2 instance but the NodeJS application can be run on any cloud provider VM e.g (Linode, GCP, Azure, OCI, DO, etc.) as long as the network is properly set up.
 
 
 ## Advantages
@@ -24,13 +24,13 @@ Load Balancing of Web or Application Servers with a NodeJS load balancer (lb) ap
 
 ##  Run App
 * To run the load balancing app: <br>
-  - Download the following files in this repository: <br>
+  - Download the following source files in this repository: <br>
     - <strong> appLB.js </strong> <br>
     - <strong> common.js </strong> <br>
     - <strong> config.json </strong> <br>
   - Edit relevant input variables within the <strong> config.json </strong> file, as deem necessary. <br>
-  - Upload the source file to the same folder on an AWS EC2 machine: <br>
-  - Then, run the script from within the folder as: <br> <strong> sudo node --inspect=$((9233 + $RANDOM % 100)) --trace-warnings --trace-deprecation --watch appLB.js </strong>
+  - Upload the source files to the same folder on an AWS EC2 machine. <br>
+  - Then, run the appLB.js script from within the folder as: <br> <strong> sudo node --inspect=$((9233 + $RANDOM % 100)) --trace-warnings --trace-deprecation --watch appLB.js </strong>
   
 
 # License
