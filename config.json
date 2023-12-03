@@ -2,7 +2,7 @@
     "port": 80,
     "tlsPort" : 443,
     "host": "localhost",
-    "lblServers": [ "http://localhost:4431", "http://localhost:4432", "http://localhost:4433" ],
+    "lblServers": [ "https://localhost:4431", "https://localhost:4432", "https://localhost:4433" ],
     "pathToTlsFiles" : "pathToTlsFiles",
     "tlsOption" : "true",
     "ca": "ca.pem",
